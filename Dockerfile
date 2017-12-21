@@ -15,4 +15,4 @@ run mkdir ~/.vnc
 # Setup a password
 run x11vnc -storepasswd 1234 ~/.vnc/passwd
 # Autostart firefox (might not be the best way to do it, but it does the trick)
-run bash -c 'echo "firefox -height 1200 -width 1600 >> /.bashrc'
+run bash -c 'echo "firefox -height 1200 -width 1600" >> /.bashrc'
